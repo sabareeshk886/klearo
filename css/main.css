@@ -262,9 +262,12 @@ h6 {
 .hero-visual {
     position: relative;
     height: 600px;
-    background-color: #e0e0e0;
-    /* Placeholder for a large image */
-    overflow: hidden;
+    background-color: var(--background-light);
+    background-image: url('../img/hero.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
 }
 
 .visual-circle {
